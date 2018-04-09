@@ -171,27 +171,6 @@ function __create_file(output_file, csv_data) {
 	});
 }
 
-// function create_csv_file(csv_data, timestamp, exclude_common_words, genre) {
-	// let input_file_name = __get_input_file_base_name();
-	// let genres_tag = genres_count + "genres";
-	// let words_cnt_tag = words_count + "words";
-	// let words_tag = exclude_common_words ? "without_common_words" : "with_common_words";
-	// let dir = "./export_stats_results/" + timestamp;
-	// require('mkdirp')(dir, function (err) { (err) ? lg(err) : ""; });
-	// let output_file = dir + "/" + input_file_name + "_";
-	// if (genre) {
-		// output_file += genre.toLowerCase().replace(/\W/gi, '_') + "_" + words_tag + ".csv";
-	// } else {
-		// output_file += genres_tag + "_" + words_cnt_tag + "_" + words_tag + ".csv";
-	// }
-	// fs.writeFile(output_file, csv_data, function(err) {
-		// if (err) {
-			// return console.log(err);
-		// }
-		// lg("Data saved to file " + output_file);
-	// });
-// }
-
 function merge_genres(genre_words, genre, genre_to_be_merged) {
 	for (let word_data_to_be_merged of genre_words[genre_to_be_merged]) {
 		add_word_data(genre_words, genre, word_data_to_be_merged);
