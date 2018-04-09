@@ -1,0 +1,20 @@
+{
+  "name": "lyrics-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "musicmatch": "^0.2.6",
+    "sqlite3": "^4.0.0",
+    "sqlite3-promise": "^1.0.3"
+  },
+  "devDependencies": {
+    "common-words": "^0.1.3"
+  }
+}
