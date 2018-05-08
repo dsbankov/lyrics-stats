@@ -11,3 +11,6 @@ The JSON itself has the following structure:
   
 ### Script
 export_stats.js - creates a statistical analysis of a data file and saves the it in ./export_stats_results/"timestamp"/
+
+### Blog Post
+http://codingintune.com/2018/04/09/statistics-most-used-words-in-lyrics-by-genre/
